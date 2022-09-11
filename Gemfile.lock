@@ -1,0 +1,63 @@
+GIT
+  remote: https://github.com/rspec/rspec-core.git
+  revision: 71823ba11ec17a73b25bdc24ebab195494c270dc
+  branch: main
+  specs:
+    rspec-core (3.12.0.pre)
+      rspec-support (= 3.12.0.pre)
+
+GIT
+  remote: https://github.com/rspec/rspec-expectations.git
+  revision: 853c5fd9eb7bdb913f99c78af2d6d3168fcaad48
+  branch: main
+  specs:
+    rspec-expectations (3.12.0.pre)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (= 3.12.0.pre)
+
+GIT
+  remote: https://github.com/rspec/rspec-mocks.git
+  revision: 2c70bfbb5bc0f59525032615c8fa989dd1ade243
+  branch: main
+  specs:
+    rspec-mocks (3.12.0.pre)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (= 3.12.0.pre)
+
+GIT
+  remote: https://github.com/rspec/rspec-support.git
+  revision: 63af2b166a8ae01994a97791bca676041f1c32ca
+  branch: main
+  specs:
+    rspec-support (3.12.0.pre)
+
+GIT
+  remote: https://github.com/rspec/rspec.git
+  revision: f4393df94d8ddde9a0b68ac29b93d09b85ef9025
+  branch: main
+  specs:
+    rspec (3.12.0.pre)
+      rspec-core (= 3.12.0.pre)
+      rspec-expectations (= 3.12.0.pre)
+      rspec-mocks (= 3.12.0.pre)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    diff-lcs (1.5.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  rspec!
+  rspec-core!
+  rspec-expectations!
+  rspec-mocks!
+  rspec-support!
+
+RUBY VERSION
+   ruby 3.1.2p20
+
+BUNDLED WITH
+   2.3.7
